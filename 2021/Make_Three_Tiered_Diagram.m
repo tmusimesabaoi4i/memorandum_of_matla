@@ -34,6 +34,7 @@ figure('position', [0, 0, 1200, 700]);
 
 sgtitle('Make Three Tiered Diagram');
 
+%% チャープ信号のプロット
 s1 = subplot(3,1,1);
 plot( t , y );
 ylabel( 'amplitude[Pa]' );
@@ -42,6 +43,7 @@ xlim([ t(1) t(end) ]);
 ax = gca;
 ax.FontSize = 17;
 
+%% チャープ信号のフーリエ変換片側表示
 s2 = subplot(3,1,2);
 
 Y = fft( y );
@@ -58,7 +60,7 @@ xlim([ f(1)/1e3 f(end)/1e3 ]);
 ax = gca;
 ax.FontSize = 17;
 
-%% 白色ガウス雑音のスペクトグラム
+%% チャープ信号のスペクトグラム
 Temporal_Sensitivity_Profile = 0.1;
 s3 = subplot(3,1,3);
 % pspectrum(y,fs,'spectrogram','TimeResolution',Temporal_Sensitivity_Profile);
@@ -79,3 +81,5 @@ s2Pos(3:4) = [s1Pos(3:4)];
 s3Pos(3:4) = [s1Pos(3:4)];
 set(s2,'position',s2Pos);
 set(s3,'position',s3Pos);
+
+%% end %%
