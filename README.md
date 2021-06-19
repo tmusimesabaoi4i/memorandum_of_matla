@@ -1,4 +1,4 @@
-# memorandum_of_matla
+# memorandum_of_matlab
 matlabの備忘録
 
 # これは何？
