@@ -1,4 +1,4 @@
-# memorandum_of_matlab
+# このフォルダについて
 matlabの備忘録
 
 # Releaseについて
