@@ -4,11 +4,11 @@
 # Make_Three_Tiered_Diagram.mついて
 入力チャープ信号
 
-<img src="./Make_Three_Tiered_Diagram/chirp.png" width="400px">
+<img src="./Make_Three_Tiered_Diagram/chirp.png" width="500px">
 
 作成された図
 
-<img src="./Make_Three_Tiered_Diagram/chirp_Three_Tiered_Diagram.png" width="400px">
+<img src="./Make_Three_Tiered_Diagram/chirp_Three_Tiered_Diagram.png" width="500px">
 
 # 作成日
 2021年6月24日
