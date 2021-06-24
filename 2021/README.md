@@ -9,7 +9,7 @@
 
 ### 出力
 
-![chirp_Three_Tiered_Diagram](./make_three_tiered_diagram/chirp_Three_Tiered_Diagram.png)
+![chirp_Three_Tiered_Diagram](./make_three_tiered_diagram/chirp_three_tiered_diagram.png)
 
 # power_spectral_density.m
 
