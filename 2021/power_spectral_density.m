@@ -1,12 +1,14 @@
 %% 一つ目の白色ガウスノイズの定数定義
+deltaF_1 = 10;
 fs_1 = 192e3;
-T_1 = 1;
-N_1 = fs_1 * T_1;
+N_1 = fs_1 / deltaF_1;
+T_1 = N_1 / fs_1;
 
 %% 二つ目の白色ガウスノイズの定数定義
+deltaF_2 = 10;
 fs_2 = 192e3 / 2;
-T_2 = 1;
-N_2 = fs_2 * T_2;
+N_2 = fs_2 / deltaF_2;
+T_2 = N_2 / fs_2;
 
 %% ガウスノイズの作成 パワーが約 1 ワット (0 dBW)
 y1_wgn = wgn( N_1 , 1 , 0 );
@@ -126,14 +128,17 @@ fprintf('var = %f , power = %f[W] \n',var(y1_wgn) ,sum( psdx_1 ) );
 fprintf('var = %f , power = %f[W] \n',var(y2_wgn) ,sum( psdx_2 ) );
 
 %% 一つ目の白色ガウスノイズの定数定義
+deltaF_1 = 30;
 fs_1 = 192e3;
-T_1 = 1;
-N_1 = fs_1 * T_1;
+N_1 = fs_1 / deltaF_1;
+T_1 = N_1 / fs_1;
 
 %% 二つ目の白色ガウスノイズの定数定義
-fs_2 = 192e3 / 3;
-T_2 = 1;
-N_2 = fs_2 * T_2;
+deltaF_2 = 30;
+fs_2 = 192e3 / 5;
+N_2 = fs_2 / deltaF_2;
+T_2 = N_2 / fs_2;
+
 
 %% ガウスノイズの作成 パワーが約 100ワット (20 dBW)
 y1_wgn = wgn( N_1 , 1 , 20 );
