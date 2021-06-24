@@ -27,7 +27,7 @@ ax = gca;
 ax.FontSize = 20;
 
 f = gcf;
-exportgraphics(f,'./Make_Three_Tiered_Diagram/chirp.png','Resolution',500);
+exportgraphics(f,'./make_three_tiered_diagram/chirp.png','Resolution',500);
 
 %% 三段にしてプロットを行う
 figure('position', [0, 0, 1400, 700]);
@@ -80,6 +80,6 @@ set(s2,'position',s2Pos);
 set(s3,'position',s3Pos);
 
 f = gcf;
-exportgraphics(f,'./Make_Three_Tiered_Diagram/chirp_Three_Tiered_Diagram.png','Resolution',500);
+exportgraphics(f,'./make_three_tiered_diagram/chirp_Three_Tiered_Diagram.png','Resolution',500);
 
 %% end %%

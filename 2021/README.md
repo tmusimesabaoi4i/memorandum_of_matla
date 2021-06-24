@@ -5,11 +5,11 @@
 
 ### 入力
 
-![chirp](./Make_Three_Tiered_Diagram/chirp.png)
+![chirp](./make_three_tiered_diagram/chirp.png)
 
 ### 出力
 
-![chirp_Three_Tiered_Diagram](./Make_Three_Tiered_Diagram/chirp_Three_Tiered_Diagram.png)
+![chirp_Three_Tiered_Diagram](./make_three_tiered_diagram/chirp_Three_Tiered_Diagram.png)
 
 # power_spectral_density.m
 
