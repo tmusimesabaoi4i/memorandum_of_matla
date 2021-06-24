@@ -18,7 +18,7 @@ f1 = fs/2;
 y = chirp(t,f0,t1,f1);
 
 %% プロット
-figure('position', [0, 0, 700, 700]);
+figure('position', [0, 0, 1400, 700]);
 plot( t , y );
 xlim([ t(1) t(end) ]);
 ylabel( 'amplitude[Pa]' );
@@ -30,7 +30,7 @@ f = gcf;
 exportgraphics(f,'./Make_Three_Tiered_Diagram/chirp.png','Resolution',500);
 
 %% 三段にしてプロットを行う
-figure('position', [0, 0, 1200, 700]);
+figure('position', [0, 0, 1400, 700]);
 
 sgtitle('Make Three Tiered Diagram');
 
@@ -71,9 +71,6 @@ xlabel( 'time[sec]' );
 ax = gca;
 ax.FontSize = 17;
 
-f = gcf;
-exportgraphics(f,'./Make_Three_Tiered_Diagram/chirp_Three_Tiered_Diagram.png','Resolution',500);
-
 s1Pos = get(s1,'position');
 s2Pos = get(s2,'position');
 s3Pos = get(s3,'position');
@@ -81,5 +78,8 @@ s2Pos(3:4) = [s1Pos(3:4)];
 s3Pos(3:4) = [s1Pos(3:4)];
 set(s2,'position',s2Pos);
 set(s3,'position',s3Pos);
+
+f = gcf;
+exportgraphics(f,'./Make_Three_Tiered_Diagram/chirp_Three_Tiered_Diagram.png','Resolution',500);
 
 %% end %%
