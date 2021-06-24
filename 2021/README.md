@@ -4,7 +4,7 @@
 # Releaseについて
 
 <!-- ![chirp](./Make_Three_Tiered_Diagram/chirp.png) -->
-<img src="***./Make_Three_Tiered_Diagram/chirp.png***" width="***300px***">
+<img src="./Make_Three_Tiered_Diagram/chirp.png" width="300px">
 
 # 作成日
 2021年6月24日
