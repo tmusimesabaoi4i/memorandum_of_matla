@@ -80,6 +80,6 @@ set(s2,'position',s2Pos);
 set(s3,'position',s3Pos);
 
 f = gcf;
-exportgraphics(f,'./make_three_tiered_diagram/chirp_Three_Tiered_Diagram.png','Resolution',500);
+exportgraphics(f,'./make_three_tiered_diagram/chirp_three_tiered_diagram.png','Resolution',500);
 
 %% end %%
