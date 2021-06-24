@@ -25,15 +25,13 @@
 
 - [ホワイト ガウス ノイズ サンプルの生成](https://jp.mathworks.com/help/comm/ref/wgn.html#mw_58fa5b7c-c1d5-4056-99bb-b116b747b563), MathWorks , 参照日：2021年6月19日
 
-- [高速フーリエ変換](https://jp.mathworks.com/help/matlab/ref/fft.html), MathWorks , \mbox{　} } \mbox{　} , 参照日：2021年6月19日
+- [高速フーリエ変換](https://jp.mathworks.com/help/matlab/ref/fft.html), MathWorks , 参照日：2021年6月19日
 
 - [FFT を使用したパワー スペクトル密度推定](https://jp.mathworks.com/help/signal/ug/power-spectral-density-estimates-using-fft.html), MathWorks , 参照日：2021年6月19日
 
-- [ピリオドグラム パワー スペクトル密度推定](https://jp.mathworks.com/help/signal/ref/periodogram.html#d123e108867), MathWorks , \mbox{　} } \mbox{　} , 参照日：2021年6月19日
+- [ピリオドグラム パワー スペクトル密度推定](https://jp.mathworks.com/help/signal/ref/periodogram.html#d123e108867), MathWorks , 参照日：2021年6月19日
 
 - [デジタル通信と雑音](http://www.oit.ac.jp/elc/~kumamoto/radio/08.pdf), 大阪工業大学 , 参照日：2021年6月24日
-\end{thebibliography}
-
 
 # 作成日
 2021年6月24日
