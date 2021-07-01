@@ -1,7 +1,7 @@
 # このフォルダについて
 202年度matlabの備忘録
 
-# Make_Three_Tiered_Diagram.mついて
+# make_three_tiered_diagram.mについて
 
 ### 入力
 
@@ -11,7 +11,7 @@
 
 ![chirp_Three_Tiered_Diagram](./make_three_tiered_diagram/chirp_three_tiered_diagram.png)
 
-# power_spectral_density.m
+# power_spectral_density.mについて
 
 ### 出力
 
@@ -32,6 +32,12 @@
 - [ピリオドグラム パワー スペクトル密度推定](https://jp.mathworks.com/help/signal/ref/periodogram.html#d123e108867), MathWorks , 参照日：2021年6月19日
 
 - [デジタル通信と雑音](http://www.oit.ac.jp/elc/~kumamoto/radio/08.pdf), 大阪工業大学 , 参照日：2021年6月24日
+
+# calculate_calibration_value.mについて
+
+ADコンバータからパソコンのソフトウエアまでの、
+
+校正値(較正値)を求めるためのプログラムです。
 
 # 作成日
 2021年6月24日
