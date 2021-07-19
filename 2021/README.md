@@ -1,11 +1,16 @@
 # このフォルダについて
-202年度matlabの備忘録
+2020年度matlabの備忘録
 
 # make_three_tiered_diagram.mについて
 
 ### 出力
 
+#### 非周期信号の場合
+
 ![chirp_Three_Tiered_Diagram](./make_three_tiered_diagram/chirp_three_tiered_diagram.png)
+
+#### 周期信号の場合
+
 ![pure_tone_three_tiered_diagram](./make_three_tiered_diagram/pure_tone_three_tiered_diagram.png)
 
 # make_two_tiered_diagram.mについて
