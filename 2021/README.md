@@ -3,13 +3,16 @@
 
 # make_three_tiered_diagram.mについて
 
-### 入力
-
-![chirp](./make_three_tiered_diagram/chirp.png)
-
 ### 出力
 
 ![chirp_Three_Tiered_Diagram](./make_three_tiered_diagram/chirp_three_tiered_diagram.png)
+![pure_tone_three_tiered_diagram](./make_three_tiered_diagram/pure_tone_three_tiered_diagram.png)
+
+# make_two_tiered_diagram.mについて
+
+### 出力
+
+![chirp_two_tiered_diagram](./make_two_tiered_diagram/chirp_two_tiered_diagram.png)
 
 # power_spectral_density.mについて
 
