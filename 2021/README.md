@@ -3,25 +3,19 @@
 
 # make_three_tiered_diagram.mについて
 
-### 出力
-
-#### 非周期信号の場合
+### 非周期信号の場合
 
 ![chirp_Three_Tiered_Diagram](./make_three_tiered_diagram/chirp_three_tiered_diagram.png)
 
-#### 周期信号の場合
+### 周期信号の場合
 
 ![pure_tone_three_tiered_diagram](./make_three_tiered_diagram/pure_tone_three_tiered_diagram.png)
 
 # make_two_tiered_diagram.mについて
 
-### 出力
-
 ![chirp_two_tiered_diagram](./make_two_tiered_diagram/chirp_two_tiered_diagram.png)
 
 # power_spectral_density.mについて
-
-### 出力
 
 ![power_spectral_density_y1_wgn](./power_spectral_density/power_spectral_density_y1_wgn.png)
 
