@@ -65,6 +65,7 @@ function [freq,l,ave] = plot_psd(y,fs,cl)
   xlabel('frequency[Hz]');
 
   xlim([ freq(1)/1e3 freq(end)/1e3 ]);
+  ylim([-200 50]);
 
   ax = gca;
   ax.FontSize = 17;

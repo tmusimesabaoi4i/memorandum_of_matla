@@ -41,7 +41,7 @@ ax = gca;
 ax.FontSize = 20;
 
 %% 三段の図を作成する
-func_make_two_tiered_diagram_with_noise(t,y,fs,0,'./make_two_tiered_diagram/chirp_two_tiered_diagram.png');
+func_make_two_tiered_diagram_with_noise(t,y,fs,1,'./make_two_tiered_diagram/chirp_two_tiered_diagram.png');
 
 %% end %%
 
@@ -62,6 +62,7 @@ function [s,ave] = plot_psd(y,fs,cl)
   xlabel('frequency[Hz]');
 
   xlim([ freq(1)/1e3 freq(end)/1e3 ]);
+  ylim([-200 50]);
 
   ax = gca;
   ax.FontSize = 17;
