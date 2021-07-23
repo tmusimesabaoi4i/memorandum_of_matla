@@ -9,8 +9,7 @@ function [f,gx] = fpsd(x,fs)
   psx = ck2;
   psx(2:end-1) = 2*psx(2:end-1);
   f = fs*(0:(N/2))/N;
-  df = f(end)/(length(f)-1);
-  gx = psx / df;
+  gx = psx ./ (f(2)-f(1));
 end
 % function [freq,psdx] = psd(x,fs)
 %     N = length(x);

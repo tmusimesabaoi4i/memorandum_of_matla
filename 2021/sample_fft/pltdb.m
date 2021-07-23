@@ -1,5 +1,5 @@
 function [pl] = pltdb(f,p,r,cl)
-  
+
   if isequal(r,'ps')
     pl = plot( f/1e3,10*log10(p/(20e-6^2)),'Color',cl);
     ylabel( 'power[dB SPL]' );
@@ -11,7 +11,7 @@ function [pl] = pltdb(f,p,r,cl)
   end
 
   xlim([ f(1)/1e3 f(end)/1e3 ]);
-  ylim([-250 150]);
+  ylim([-100 100]);
 
   ax = gca;
   ax.FontSize = 17;
